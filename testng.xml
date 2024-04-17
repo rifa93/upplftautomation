@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.viewprof.CvUpload"/>
+      <class name="org.viewprof.TeamCulture"/>
+      <class name="org.viewprof.Availability"/>
+      <class name="org.viewprof.SoftSkills"/>
+      <class name="org.viewprof.Education"/>
+      <class name="org.viewprof.SalaryBase"/>
+      <class name="org.viewprof.OtherExpectations"/>
+      <class name="org.viewprof.TechSkills"/>
+      <class name="org.viewprof.DayRate"/>
+      <class name="org.viewprof.Location"/>
+      <class name="org.viewprof.ContactPreference"/>
+      <class name="org.viewprof.Business"/>
+      <class name="org.viewprof.IndiIden"/>
+      <class name="org.viewprof.ResidencyStatus"/>
+      <class name="org.viewprof.EnglishProf"/>
+      <class name="org.viewprof.Adhocracy"/>
+      <class name="org.viewprof.IntrestedIn"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
