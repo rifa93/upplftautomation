@@ -3,21 +3,20 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="org.viewprof.Adhocracy">
+      <class name="org.bus.HomeButtons">
         <methods>
-          <include name="adhoCracy"/>
+          <include name="roleBtn"/>
+          <include name="urlLaunch"/>
+          <include name="calBut"/>
+          <include name="endBrow"/>
+          <include name="pipBtn"/>
         </methods>
-      </class> <!-- org.viewprof.Adhocracy -->
-      <class name="org.viewprof.EnglishProf">
+      </class> <!-- org.bus.HomeButtons -->
+      <class name="org.bus.HiringToggleButton">
         <methods>
-          <include name="profEng"/>
+          <include name="hirTogBut"/>
         </methods>
-      </class> <!-- org.viewprof.EnglishProf -->
-      <class name="org.viewprof.SoftSkills">
-        <methods>
-          <include name="softSkill"/>
-        </methods>
-      </class> <!-- org.viewprof.SoftSkills -->
+      </class> <!-- org.bus.HiringToggleButton -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -3,11 +3,18 @@
 <suite name="Failed suite [Failed suite [Failed suite [Suite]]]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)(failed)(failed)">
     <classes>
-      <class name="org.viewprof.SalaryBase">
+      <class name="org.bus.HomeButtons">
         <methods>
-          <include name="salBase"/>
+          <include name="urlLaunch"/>
+          <include name="endBrow"/>
+          <include name="setBut"/>
         </methods>
-      </class> <!-- org.viewprof.SalaryBase -->
+      </class> <!-- org.bus.HomeButtons -->
+      <class name="org.bus.HiringToggleButton">
+        <methods>
+          <include name="hirTogBut"/>
+        </methods>
+      </class> <!-- org.bus.HiringToggleButton -->
     </classes>
   </test> <!-- Test(failed)(failed)(failed) -->
 </suite> <!-- Failed suite [Failed suite [Failed suite [Suite]]] -->

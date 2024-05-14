@@ -44,17 +44,19 @@ public class CreatePost extends BaseClass{
 		
 		WebElement publishbtn = driver.findElement(By.xpath("//button[contains(text(),' Publish ')]"));
 		publishbtn.click();
+		
+		impWait();
 
 		WebElement veiwprof = driver.findElement(By.xpath("//span[contains(text(),' View Post ')]"));
 		veiwprof.click();
-		
+		impWait();
 		
 		WebElement drop = driver.findElement(By.xpath("//mat-icon[contains(text(),'more_vert')]"));
 		drop.click();
-		
+		impWait();
 		WebElement delpost = driver.findElement(By.xpath("//a[contains(text(),'Delete Post')]"));
 		delpost.click();
-		
+		impWait();
 		Thread.sleep(2000);
 		//WebDriverWait w=new WebDriverWait(driver, Duration.ofSeconds(30));
 		
@@ -62,8 +64,8 @@ public class CreatePost extends BaseClass{
 		yesbtn.click();
 		impWait();
 		
-		
-		driver.quit();
+		driver.navigate().refresh();
+		//driver.quit();
 
 	}
 

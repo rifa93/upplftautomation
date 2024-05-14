@@ -7,17 +7,18 @@ import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import org.upplft.BaseClass;
 
-public class TypeofBusiness extends BaseClass {
+public class IndustryDropdown extends BaseClass{
 	@Test
-	private void typBus() {
+	private void typBus() throws Throwable {
     launchBrowser(browserkey);
     launchUrl();
     busLog();
     busProf();
    
-    WebElement typ = driver.findElement(By.name("technology"));
+    WebElement typ = driver.findElement(By.name("industry"));
+    Thread.sleep(1000);
     typ.click();
-    impWait();
+    
     
     List<WebElement> typlist = driver.findElements(By.className("mat-option-text"));
     impWait();
@@ -38,5 +39,6 @@ public class TypeofBusiness extends BaseClass {
     busProfSave();
     driver.quit();
 	}
+
 
 }

@@ -114,7 +114,16 @@ driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 	 public static void profSave() {
 		  WebElement sveBtn = driver.findElement(By.xpath("//span[contains(text(),'Save')]"));
 	        sveBtn.click();
+	        
+	        
+	        
 	 }
+	 
+	 public static void busProfSave() {
+	    WebElement element = driver.findElement(By.xpath("//span[contains(text(),' Save')]"));
+	    element.click();
+
+	}
 	 
 	 public static void screenShot(String name) throws SecurityException, IOException {
 		 

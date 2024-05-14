@@ -1,7 +1,5 @@
 package org.bus;
 
-import static org.testng.Assert.assertEquals;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
@@ -90,7 +88,8 @@ Assert.assertEquals(Acturl1, calcururl1,"error message");
 		if(!Acturl1.equals(calcururl1)) {
 			Assert.fail("unexpected behaviour");
 		}
-
+		driver.quit();
 	}
+     
 	    
 }

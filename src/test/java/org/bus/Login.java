@@ -12,7 +12,7 @@ public class Login extends BaseClass {
 		busProf();
 		impWait();
 		
-	
+		driver.quit();
         
 	}
 

@@ -28,6 +28,8 @@ public class HiringToggleButton extends BaseClass {
 			impWait();
 			System.out.println("the toggle button is not selected and its now selected");
 		}
+		
+		driver.quit();
 			
 	}
 	

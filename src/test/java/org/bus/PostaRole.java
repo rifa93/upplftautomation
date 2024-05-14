@@ -30,7 +30,7 @@ public class PostaRole extends BaseClass{
 		    
 		    // Call your custom method 'impWait' if needed
 		    impWait();
-			
+		    driver.quit();
 
 	}
 

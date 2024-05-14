@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.bus.HiringToggleButton">
+      <class name="org.bus.CreatePost">
         <methods>
-          <include name="hirTogBut"/>
+          <include name="crtPost"/>
         </methods>
-      </class> <!-- org.bus.HiringToggleButton -->
+      </class> <!-- org.bus.CreatePost -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
